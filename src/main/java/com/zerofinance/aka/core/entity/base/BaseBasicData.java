@@ -19,7 +19,7 @@ import com.zerofinance.aka.core.entity.User;
  */
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
-public abstract class BaseBasicData<T> extends BaseEntity {
+public abstract class BaseBasicData<T> extends BaseEntity{
 
 	@Column(nullable = false)
 	private String name;
